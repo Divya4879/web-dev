@@ -58,7 +58,11 @@ section{
     border-top: 0;
     border-right: 0;
 }
-
+@media screen and (min-width:992px){
+    .border , .bordera{
+        min-width:28%;
+    }}
+     
 @media screen and (min-width:768px) and (max-width:991px){
     .border {
         
